@@ -1,6 +1,24 @@
-*.exe
+# .NET
+**/bin/
+**/obj/
+.vs/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# IDE
 .vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
